@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background: antiquewhite;
+	color: #333;
+	text-align: center;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+h1,
+h2 {
+	padding-bottom: 2rem;
+}
+
+.wrapper {
+	margin: auto;
+	width: 100%;
+}
+
+nav {
+ 	width: 100%;
+	font-weight: bold;
+	justify-content: space-between;
+	display: flex;
+	text-decoration: none;
+	
+	
+}	
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	font-size: 50px;
+	float: right;
+	text-transform: uppercase;
+
+			
+}
+
+nav ul li a {
+	display: block;
+	padding: 2rem;
+	text-decoration: none;
+	color: #0070d2;
+	
+}
+
+nav ul li a:hover {
+	color: turquoise;
+	text-decoration-line: underline;
+}
+
+/* logo */
+.logo a {
+	font-size: 50px;
+	text-decoration: none;
+	color: indigo;
+}
+.logo span {
+	font-size: 50px;
+	padding: 0 1.5rem;
+	color: turquoise;
+	
+}
+
+/* header */
+#title {
+	background: url(Images/premium_photo-1682145730713-34bba6d3d14a.avif) no-repeat center center/cover; 
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 0 0 50% 0;
+}
+
+#title {
+	font-size: 50px;
+	letter-spacing: 1.5rem;
+	margin: 3rem;
+	padding-bottom: 5rem;
+	font-weight: bold;
+	color: aquamarine;
+	text-align: center;
+}
+
+
+.form-container {
+	justify-content: center;
+	align-items: right;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 25px;
+	vertical-align: middle;
+}
+
+#about {
+	position: relative;
+    padding: 40px 35px;
+    background-color: #ffffff;
+    outline: 2px dashed #acd9c2;
+    outline-offset: -12px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
+	font-size: 70px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#vision {
+	position: relative;
+    padding: 40px 35px;
+    background-color: #ffffff;
+    outline: 2px dashed #acd9c2;
+    outline-offset: -12px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
+	font-size: 70px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contact {
+	box-sizing: content-box;
+	font-size: 60px;
+	color: navy;
+}
+
+
+.form-container {
+	font-size: 40px;
+	
+}
+
+/* .button {
+		
+} */
+
+/* footer */
+#footer {
+	font-size: xx-large;
+	border: #333 solid;
+	background-color: black;
+	color: white;
+}	
+
+#footer a {
+	font-size: large;
+	color: white;
+}	
+
+#quote {
+	padding: 50px;
+}
